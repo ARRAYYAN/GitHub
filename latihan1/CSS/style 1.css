@@ -1,0 +1,37 @@
+.kepala{
+background:#53207F;
+padding: 5px 3px 5px 24px;
+text-align: center;
+color: #FA997D;
+/*top right bottom left*/
+}
+	.satu{
+		padding: 1em;
+		float:left;
+		background: red;
+		width:45%;
+		border: solid black 2px;
+	}
+	.dua{
+		padding: 1em;
+		position: relative;
+		float:right;
+		background: green;
+		width:49.5%;
+		border: solid black 2px;
+	}
+
+.container{
+	border:solid black 2px;
+	background: #87B292;
+	font-weight: bold;
+	font-family: verdana;
+	text-align: center;
+	
+}
+.row{
+	margin:20px;
+	border:solid black 5px;
+	text-align: center;
+	background: #C47792;
+}

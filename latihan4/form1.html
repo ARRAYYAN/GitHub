@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input Output</title>
+</head>
+<body>
+
+
+<h1>Belajar Input dan Output</h1>
+<h1>Input Output pada JavaScript dengan konsep DOM</h1>
+<h1>Input adalah <span id="ide"></span> dan Output adalah <span id="hasil"></span></h1>
+<h1 id="sembarang"></h1>
+
+
+Masukkan Nama Anda : <input type="text" name="isian" id="isian" onchange="bacaNama()"><br>
+<br>
+Masukkan Kata Sandi Anda : <input type="text" name="isian" id="isian" onchange="bacaNama()">
+
+
+<script type="text/javascript">
+	
+/*var ide = "OKE";
+var hasil = "GOOD";
+
+
+document.getElementById('ide').innerHTML = ide;
+document.getElementById('hasil').innerHTML = hasil;
+
+document.getElementsByTagName ('h1')[0].innerHTML = "TEST DOM";
+document.getElementById ('sembarang').innerHTML= document.getElementsByTagName('h1')[0].innerHTML ;
+*/
+
+function bacaNama (){
+		document.getElementById ('sembarang').innerHTML = document.getElementById ('isian').value;
+}
+
+</script>
+
+</body>
+</html>

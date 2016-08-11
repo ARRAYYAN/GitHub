@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<div id="nav"></div>
+
+<script type="text/javascript">
+
+/*document.getElementById('nav').innerHTML = "<li>link 1</li>"+
+										   "<li>link 2</li>"+
+										   "<li>link 3</li>"+
+										   "<li>link 4</li>";
+
+*/
+var links = "";
+
+for (var i = 1; i <= 2; i++) {
+	links += "<li>link" + i + "</li>" ;
+}
+
+document.getElementById('nav').innerHTML = links;
+
+</script>
+
+
+</body>
+</html>

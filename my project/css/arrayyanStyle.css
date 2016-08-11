@@ -1,0 +1,23 @@
+body {
+	background-color: #798E76;
+	color:#fff;
+}
+
+.text-muted {
+	color: #fff;
+}
+
+.jumbotron {
+	text-align: left;
+	background-image: url(../img/background.jpg);
+	background-color: #E57194;
+	color:#000;
+}
+
+.footer {
+	color: #F1F496;
+}
+
+.jumbotron p {
+	font-size: 12px;
+}

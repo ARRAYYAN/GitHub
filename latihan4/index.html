@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar JavaScript</title>
+</head>
+<body>
+
+<h1 id="judul">Belajar JavaScript</h1>
+
+<div id="output"></div>
+
+<div id="hasil"></div>
+
+<div id="Harga"></div>
+
+<div id="TOTAL"></div>
+
+<script type="text/javascript">
+	
+	document.getElementById('output').innerHTML = "Hello World" 
+	
+
+	var a = 10;
+	var b = 2600;
+	
+	document.getElementById('hasil').innerHTML = "jumlah  " +  a ;
+	document.getElementById('Harga').innerHTML = "harga satuan  " +  b ;
+	document.getElementById('TOTAL').innerHTML = "TOTAL  " +  hitungTotal ( a ) ;
+
+	/* Menghitung jumlah harga dan diskon 
+		- harga satuan fixed 2600
+		- diskon fixed 10% (0.1)
+	*/
+
+	function hitungTotal ( jumlah, hargasatuan) {
+		var TOTAL;
+		var diskon;
+		diskon = jumlah * 2600;
+		TOTAL = diskon - (diskon*0.1);
+
+		return TOTAL;
+	}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Pemesanan</title>
+</head>
+<body>
+
+
+	Pilihan Rasa :
+	<select id="rasa" onclick="inputRasa()">
+		<option></option>
+		<option value="12000">Original - 12.000,-</option>	
+		<option value="15000">Coklat - 15.000,-</option>
+		<option value="22000">Keju - 22.000,-</option>
+		<option value="20000">Kacang - 20.000,-</option>
+		<option value="20000">Selai Kaya - 20.000,-</option>
+		<option value="18000">Nanas - 18.000,-</option>
+	</select><br>
+	<br>
+	Jumlah Pesanan : <input type="text" name="jumlah" id="jumlah" onchange="hitungHarga()">
+	
+	<select>
+		<option></option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+	</select>
+	<br>
+
+
+<div>Jumlah Harga : <span id="harga"></span></div>
+
+<script type="text/javascript" src="js/olahform.js"></script>
+</body>
+</html>
